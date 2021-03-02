@@ -1,4 +1,8 @@
 baseURL = "https://pbranchaud.com/"
+defaultContentLanguage = "fr"
 languageCode = "fr-ca"
 title = "Patrick Branchaud"
 theme = "ananke"
+[taxonomies]
+  tag = "tags"
+  category = "categories"
