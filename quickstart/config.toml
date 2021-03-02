@@ -1,3 +1,4 @@
 baseURL = "https://pbranchaud.com/"
 languageCode = "fr-ca"
 title = "Patrick Branchaud"
+theme = "ananke"
