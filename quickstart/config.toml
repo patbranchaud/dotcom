@@ -1,8 +1,35 @@
 baseURL = "https://pbranchaud.com/"
 defaultContentLanguage = "fr"
 languageCode = "fr-ca"
-title = "Patrick Branchaud"
+title = "<Branch/>"
 theme = "ananke"
+
 [taxonomies]
   tag = "tags"
   category = "categories"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "services"
+    name = "Services"
+    url = "/services/"
+    weight = -110
+
+  [[menu.main]]
+    identifier = "blogs"
+    name = "Blog"
+    url = "/blogs/"
+    weight = -100
+
+  [[menu.main]]
+    identifier = "a-propos"
+    name = "À propos"
+    url = "/a-propos/"
+    weight = -90
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = -80
