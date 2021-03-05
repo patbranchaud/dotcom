@@ -19,7 +19,7 @@ theme = "ananke"
   [[menu.main]]
     identifier = "blogs"
     name = "Blog"
-    url = "/blogs/"
+    url = "/posts/"
     weight = -100
 
   [[menu.main]]
